@@ -1,0 +1,210 @@
+.fullsize-bg {
+  /* The image used */
+  background-image: url("..//images/about/about-bg1-bw.jpg");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	justify-content: center;
+	display: flex;
+
+    align-items: center;
+		h2{
+		font-family:$roboto;
+		color: $text-white;
+		text-decoration: none;
+		padding:10px 4px;
+		// margin-top:0px;
+	}
+}
+
+
+
+.parallax {
+  /* The image used */
+background-image: url("..//images/about/about-bg1-bw.jpg");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    align-items: center;
+		position: relative;
+		h2{
+		font-family:$roboto;
+		color: $text-white;
+		text-decoration: none;
+		padding:10px 4px;
+		// margin-top:0px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+  .parallax{
+    background-attachment: scroll;
+  }
+
+  .parallax2{
+    background-attachment: scroll;
+  }
+}
+.parallax2 {
+  /* The image used */
+background-image: url("..//images/about/about-bg2.jpg");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    align-items: center;
+		position: relative;
+		h2{
+		font-family:$roboto;
+		color: $text-white;
+		text-decoration: none;
+		padding:10px 4px;
+		// margin-top:0px;
+	}
+}
+
+.parallax-middle {
+	position:absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+}
+
+.bullet{
+	h4{
+	font-family: $roboto;
+	color: $text-white;
+	padding:10px 4px;
+	// margin-top:0px;
+	text-decoration: none;
+
+}
+}
+
+#about-content {
+	margin-top:30px;
+	margin-bottom:60px;
+}
+
+#clients {
+	margin-top:30px;
+	margin-bottom:60px;
+}
+
+.section-margin-top {
+	margin-top:50px;
+}
+
+
+/* Column container */
+.row-about {
+	margin-left:10%;
+	margin-right:10%;
+
+  display: flex;
+	flex-direction: row;
+  // flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side-about {
+  flex: 45%;
+	display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+
+	h1{
+		font-family: 'Kiona';
+	}
+
+	// p {
+	// 	font-family: 'Roboto-Thin';
+	// 	font-size:16px;
+	// }
+}
+
+.about-text {
+	font-size:18px;
+	font-family: $roboto;
+	color: $text-white;
+}
+
+/* Main column */
+.main-about {
+  flex: 35%;
+  background-color: $bg-black;
+  padding: 20px;
+
+}
+
+.bg-overlay-text {
+	width:100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	text-align: center;
+
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+
+}
+
+.clients-content {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  font-family: $roboto;
+  color: $orange-text;
+	img {
+	width:100px;
+	margin:20px;
+	}
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 768px) {
+	.bg-overlay-text {
+		width:100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		border-radius: 5px;
+		text-align: center;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	}
+
+	.row-about {
+		margin-left:20px;
+		margin-right:20px;
+
+	  display: flex;
+		flex-direction: column;
+	  // flex-wrap: wrap;
+	}
+
+  .about-text {
+  	font-size:14px;
+  }
+}

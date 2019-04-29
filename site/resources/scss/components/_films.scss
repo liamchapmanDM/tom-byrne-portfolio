@@ -1,0 +1,369 @@
+.page-title {
+text-align: center;
+	h1{ font-family: 'kiona';
+		text-decoration: underline;
+		color: $orange-text;
+		}
+}
+
+.sub-title{
+	text-align: left;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom:10px;
+	h2 {
+		font-family: $roboto;
+			text-decoration: none;
+			color: $text-white;
+	}
+}
+
+
+.flex-container2 {
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 0px;
+	padding-bottom:30px;
+}
+
+.test-image > a {
+  text-decoration: none;
+}
+
+.test-image-addict > a {
+  text-decoration: none;
+}
+
+.test-image-wtsts > a {
+  text-decoration: none;
+}
+
+.test-image-night > a {
+  text-decoration: none;
+}
+
+.test-image-talk > a {
+  text-decoration: none;
+}
+
+.test-image3 > a {
+  text-decoration: none;
+}
+
+.flex-container2 > div {
+  margin: 0px;
+  padding: 20px 0px 0px 0px;
+
+  font-size: 30px;
+}
+
+.test-image {
+  width: 100%;
+  height: 8em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/reanimated1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+	display: flex;
+    align-items: center;
+		h2{
+		font-family:'kiona';
+		color: $text-white;
+	}
+}
+
+.test-image:hover {
+  width: 100%;
+  height: 8em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/reanimated2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+	display: flex;
+    align-items: center;
+		h2{
+		font-family:'kiona';
+		color: $text-white;
+	}
+}
+
+.test-image-addict {
+  width: 100%;
+  height: 8em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/addict-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+	display: flex;
+    align-items: center;
+		h2{
+		font-family:'kiona';
+		color: $text-white;
+	}
+}
+
+.test-image-addict:hover {
+  width: 100%;
+  height: 8em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/addict-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+	display: flex;
+    align-items: center;
+		h2{
+		font-family:'kiona';
+		color: $text-white;
+	}
+}
+
+
+
+
+
+
+.test-image-wtsts {
+  width: 100%;
+  height: 16em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/wtsts1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+	display: flex;
+    align-items: center;
+		h2{
+		font-family:'kiona';
+		color: $text-white;
+	}
+}
+
+.test-image-wtsts:hover {
+  width: 100%;
+  height: 16em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/wtsts2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+	display: flex;
+    align-items: center;
+		h2{
+		font-family:'kiona';
+		color: $text-white;
+	}
+}
+
+.test-image-night {
+  width: 100%;
+  height: 8em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/night-dreams-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+	display: flex;
+    align-items: center;
+		h2{
+		font-family:'kiona';
+		color: $text-white;
+	}
+}
+
+.test-image-night:hover {
+  width: 100%;
+  height: 8em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/night-dreams-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+	display: flex;
+    align-items: center;
+		h2{
+		font-family:'kiona';
+		color: $text-white;
+	}
+}
+
+.test-image-talk {
+  width: 100%;
+  height: 8em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/we-dont-talk-2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+	display: flex;
+    align-items: center;
+		h2{
+		font-family:'kiona';
+		color: $text-white;
+	}
+}
+
+.test-image-talk:hover {
+  width: 100%;
+  height: 8em;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/we-dont-talk-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+	display: flex;
+    align-items: center;
+		h2{
+		font-family:'kiona';
+		color: $text-white;
+	}
+}
+
+
+
+
+
+	.test-image3 {
+	  width: 100%;
+	  height: 8em;
+	  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/prophecyofsouls1.jpg');
+	  background-position: center;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  justify-content: center;
+		display: flex;
+	    align-items: center;
+			h2{
+			font-family:'kiona';
+			color: $text-white;
+		}
+	}
+
+	.test-image3:hover {
+	  width: 100%;
+	  height: 8em;
+	  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('..//images/films/prophecyofsouls2.jpg');
+	  background-position: center;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  justify-content: center;
+		display: flex;
+	    align-items: center;
+			h2{
+			font-family:'kiona';
+			color: $text-white;
+		}
+	}
+
+
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.row5 {
+  display: flex;
+  flex-wrap: wrap;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 0px;
+	padding-bottom:0px;
+	justify-content: center;
+}
+
+.row4 {
+  display: flex;
+  flex-wrap: wrap;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 0px;
+	padding-bottom:30px;
+	justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column5 {
+  flex: 25%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 30px;
+	padding-bottom:00px;
+  padding: 0px;
+}
+
+.column5 img {
+  // margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column5 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column5 {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+	.flex-container2 {
+	  display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 0%;
+		padding-right: 0%;
+		padding-top: 0px;
+		padding-bottom:0px;
+	}
+
+	.row4 {
+	  display: flex;
+		flex-direction: column;
+	  flex-wrap: wrap;
+		padding-left: 0%;
+		padding-right: 0%;
+		padding-top: 0px;
+		padding-bottom:0px;
+		justify-content: center;
+	}
+
+	.sub-title{
+		text-align: left;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom:10px;
+		h2 {
+			font-family: $roboto;
+				text-decoration: none;
+				color: $text-white;
+		}
+	}
+
+
+}

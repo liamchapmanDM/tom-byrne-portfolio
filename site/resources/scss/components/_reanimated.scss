@@ -1,0 +1,84 @@
+#animate-text {
+text-align: left;
+padding: 20px;
+height: auto;
+font-family: $roboto;
+font-size: 30px;
+color: $orange-text;
+font-weight: bold;
+background: rgba(0, 0, 0, 0.5);
+margin:auto;
+flex:100%;
+}
+
+.contents {
+
+	font-family: $roboto;
+  text-align: left;
+  padding-top:5px;
+
+	li{
+		padding:3px;
+	}
+}
+
+.gallery {
+	padding-top:30px;
+	padding-left: 20%;
+	padding-right: 20%;
+	height:100vh;
+	margin-bottom:10%;
+}
+
+.gallery-container {
+  display: flex;
+	flex-wrap: wrap;
+  width: 100%;
+  height: 300px;
+}
+
+.gallery-item {
+  flex: 1;
+  color: $text-white;
+	padding:1px;
+}
+
+
+.reanimated-top{
+	padding-left: 20%;
+	padding-right:20%;
+  margin-bottom:40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+.reanimated-top{
+	padding-left: 10px;
+	padding-right:10px;
+  margin-bottom:40px;
+  text-align: center;
+}
+}
+
+
+/* [1] The container */
+.img-hover-zoom {
+  // height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+
+.spacer {
+	width:100%;
+	height: 0px;
+}

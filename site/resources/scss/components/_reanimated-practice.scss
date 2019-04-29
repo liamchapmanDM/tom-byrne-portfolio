@@ -1,0 +1,99 @@
+#animate-text {
+width: 800px;
+padding: 20px;
+height: auto;
+font-family: $roboto;
+font-size: 40px;
+color: $orange-text;
+font-weight: bold;
+background: rgba(0, 0, 0, 0.5);
+margin:auto;
+flex:100%;
+}
+
+// .reanimated-top {
+// 	height:100vh;
+// 	text-align: center;
+// 	display: flex;
+// 	justify-content: center;
+// 	flex-direction: column;
+// 	background-image: url('..//images/reanimated/reanimated-bg.png');
+// 	background-position: center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }
+
+.parallax-reanimated {
+  /* The image used */
+background-image: url("..//images/reanimated/reanimated-bg.png");
+
+  /* Full height */
+  height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    align-items: center;
+		position: relative;
+
+}
+
+.contents {
+	padding-top:30px;
+	font-family: $roboto;
+
+	li{
+		padding:3px;
+	}
+}
+
+.gallery {
+	padding-top:30px;
+	padding-left: 20%;
+	padding-right: 20%;
+	height:100vh;
+	margin-bottom:10%;
+}
+
+.gallery-container {
+  display: flex;
+	flex-wrap: wrap;
+  width: 100%;
+  height: 300px;
+}
+
+.gallery-item {
+  flex: 1;
+  color: $text-white;
+	padding:1px;
+}
+
+
+.reanimated-top{
+	padding-left: 20%;
+	padding-right:20%;
+}
+
+
+/* [1] The container */
+.img-hover-zoom {
+  // height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.2);
+}
+
+.spacer {
+	width:100%;
+	height: 0px;
+}

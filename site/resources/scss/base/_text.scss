@@ -1,0 +1,134 @@
+@font-face {
+    font-family: $oswald;
+    src: url('../fonts/Oswald/Oswald-Regular.ttf');
+    src: url('../fonts/Oswald/Oswald-Regular.eot') format('embedded-opentype'),
+         url('../fonts/Oswald/Oswald-Regular.woff') format('woff2'),
+         url('../fonts/Oswald/Oswald-Regular.woff2') format('woff'),
+         url('../fonts/Oswald/Oswald-Regular.ttf')  format('truetype'),
+         url('../fonts/Oswald/Oswald-Regular.svg') format('svg');
+}
+
+
+
+@font-face {
+    font-family: $kiona;
+    src:url('../fonts/Kiona/Kiona-Regular.woff') format('woff'),
+        url('../fonts/Kiona/Kiona-Regular.svg#Kiona-Regular') format('svg'),
+        url('../fonts/Kiona/Kiona-Regular.eot'),
+        url('../fonts/Kiona/Kiona-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: $roboto;
+    src: url('../fonts/Roboto/Roboto-Thin.ttf');
+    src: url('../fonts/Roboto/Roboto-Thin.eot') format('embedded-opentype'),
+         url('../fonts/Roboto/Roboto-Thin.woff2') format('woff2'),
+         url('../fonts/Roboto/Roboto-Thin.woff') format('woff'),
+         url('../fonts/Roboto/Roboto-Thin.ttf')  format('truetype'),
+         url('../fonts/Roboto/Roboto-Thin.svg') format('svg');
+}
+
+h1{
+	font-size:35px;
+	line-height: 15px;
+	font-family: $oswald;
+	margin-top: 10px;
+	line-height: 1;
+}
+h2{
+	font-size:20px;
+	line-height: 15px;
+	font-family: $oswald;
+	margin-top: 10px;
+	line-height: 1;
+}
+h3{
+	font-size:20px;
+	line-height: 10px;
+	font-family: $oswald;
+	margin-top: 10px;
+	line-height: 1.6;
+}
+
+p {
+
+	margin-top: 10px;
+	line-height: 1.6;
+}
+
+h4 {
+
+	margin-top: 10px;
+	line-height: 1.6;
+}
+
+a {
+	font-family: $oswald, sans-serif;
+	line-height: 1.6;
+}
+
+.plain-link {
+	font-family: $oswald, sans-serif;
+	margin-top: 10px;
+	line-height: 1.6;
+}
+
+.page-title {
+  display:inline;
+  clear:none;
+  text-align:left;
+  margin:0px;
+  font-size:33px;
+}
+
+.page-subtitle {
+  display:inline;
+  clear:none;
+  text-align:left;
+  font-size:18px;
+  font-weight:100;
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	h1{
+		font-size:40px;
+		line-height: 50px;
+		margin:20px 20px 10px 10px;
+	}
+	h2{
+
+		font-size:25px;
+		line-height: 25px;
+		margin:10px;
+	}
+	h3{
+		font-size:20px;
+		line-height: 20px;
+		margin:10px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	h1{
+		font-size:50px;
+		line-height: 60px;
+		margin:20px 20px 10px 10px;
+	}
+	h2{
+		font-size:35px;
+		line-height: 60px;
+		margin:10px;
+	}
+	h3{
+		font-size:40px;
+		line-height: 50px;
+		margin:10px;
+	}
+}
